@@ -1,0 +1,13 @@
+{
+    "contest": {
+        "scope": "nim",
+        "prefix": "contest",
+        "body": [
+            "include ../../ctemplate",
+            "",
+            "when isMainModule:",
+            "  "
+        ],
+        "description": "contest template"
+    }
+}
