@@ -1,4 +1,4 @@
-include ../ctemplate
+include ../../ctemplate
 
 when isMainModule:
   1000.loop:

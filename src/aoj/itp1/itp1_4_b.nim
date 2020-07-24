@@ -1,4 +1,4 @@
-include ../ctemplate
+include ../../ctemplate
 
 when isMainModule:
   var r = read(int).toFloat
