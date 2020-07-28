@@ -1,0 +1,3 @@
+[submodule "contestlib"]
+	path = contestlib
+	url = https://github.com/Foo-x/contestlib-nim
