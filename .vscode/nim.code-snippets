@@ -3,7 +3,8 @@
         "scope": "nim",
         "prefix": "contest",
         "body": [
-            "include ../../ctemplate",
+            "include contestlib/imports",
+            "import contestlib",
             "",
             "when isMainModule:",
             "  "

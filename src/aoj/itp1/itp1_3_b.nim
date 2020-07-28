@@ -1,4 +1,5 @@
-include ../../ctemplate
+include contestlib/imports
+import contestlib
 
 when isMainModule:
   for i in 1..10000:

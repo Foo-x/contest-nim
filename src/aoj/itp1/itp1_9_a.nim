@@ -1,4 +1,5 @@
-include ../../ctemplate
+include contestlib/imports
+import contestlib
 
 when isMainModule:
   var w = read(string).toLower
