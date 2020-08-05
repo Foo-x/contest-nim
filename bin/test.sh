@@ -13,4 +13,4 @@ problem=$3
 root=$(git rev-parse --show-toplevel)
 cd ${root}/src/${site}/${title}/
 
-nim cpp -r -o:./a.out -d:release --hints:off --verbosity:0 ${title}_${problem}.nim < inputs/${title}_${problem}.txt
+nim cpp -r --outdir:$(mktemp -d) -d:release --hints:off --verbosity:0 ${title}_${problem}.nim < inputs/${title}_${problem}.txt
