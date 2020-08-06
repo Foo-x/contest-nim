@@ -6,9 +6,58 @@
             "include contestlib/imports",
             "import contestlib",
             "",
+            "var",
+            "  N: int",
+            "",
             "when isMainModule:",
+            "  N = read(int)",
             "  "
         ],
         "description": "contest template"
-    }
+    },
+    "for range": {
+        "scope": "nim",
+        "prefix": "forr",
+        "body": [
+            "for ${1:i} in ${2:0}..$3:",
+            "  $0"
+        ],
+        "description": "for loop (range)"
+    },
+    "for array": {
+        "scope": "nim",
+        "prefix": "fora",
+        "body": [
+            "for ${1:a} in $2:",
+            "  $0"
+        ],
+        "description": "for loop (array)"
+    },
+    "newSeq": {
+        "scope": "nim",
+        "prefix": "ns",
+        "body": [
+            "newSeq[${1:int}]($2)",
+            "$0"
+        ],
+        "description": "short newSeq"
+    },
+    "newSeqWith": {
+        "scope": "nim",
+        "prefix": "nsw",
+        "body": [
+            "newSeqWith($1, $2)",
+            "$0"
+        ],
+        "description": "short newSeqWith"
+    },
+    "read": {
+        "scope": "nim",
+        "prefix": "r",
+        "body": [
+            "read(${1:int})",
+            "$0"
+        ],
+        "description": "short read"
+    },
 }
