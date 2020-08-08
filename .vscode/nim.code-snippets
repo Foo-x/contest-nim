@@ -7,10 +7,10 @@
             "import contestlib",
             "",
             "var",
-            "  N: int",
+            "  ${1:N: int}",
             "",
             "when isMainModule:",
-            "  N = read(int)",
+            "  ${2:N = read(int)}",
             "  "
         ],
         "description": "contest template"
