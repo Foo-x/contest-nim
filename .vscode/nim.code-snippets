@@ -35,7 +35,7 @@
     },
     "read": {
         "scope": "nim",
-        "prefix": "r",
+        "prefix": "re",
         "body": [
             "read(${1:int})",
             "$0"
