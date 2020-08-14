@@ -1,7 +1,6 @@
 include contestlib/imports
 import contestlib
 
-
 when isMainModule:
   var
     h = read(int)
