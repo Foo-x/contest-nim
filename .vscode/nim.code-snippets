@@ -7,11 +7,8 @@
             "import contestlib",
             "",
             "var",
-            "  ${1:N: int}",
-            "",
-            "when isMainModule:",
             "  ${2:N = read(int)}",
-            "  "
+            ""
         ],
         "description": "contest template"
     },
@@ -32,14 +29,5 @@
             "$0"
         ],
         "description": "short newSeqWith"
-    },
-    "read": {
-        "scope": "nim",
-        "prefix": "re",
-        "body": [
-            "read(${1:int})",
-            "$0"
-        ],
-        "description": "short read"
     },
 }
