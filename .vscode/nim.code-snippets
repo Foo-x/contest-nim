@@ -82,6 +82,24 @@
     ],
     "description": "contest real time template"
   },
+  "contestSimple": {
+    "scope": "nim",
+    "prefix": "contestSimple",
+    "body": [
+      "import strutils, sequtils, math",
+      "",
+      "var",
+      "  ${1:S = stdin.readLine}",
+      ""
+    ],
+    "description": "short stdin.readLine"
+  },
+  "stdinReadLine": {
+    "scope": "nim",
+    "prefix": "stdinReadLine",
+    "body": ["stdin.readLine"],
+    "description": "short stdin.readLine"
+  },
   "newSeq": {
     "scope": "nim",
     "prefix": "ns",
