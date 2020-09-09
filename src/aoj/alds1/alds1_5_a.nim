@@ -1,6 +1,6 @@
 include contestlib/imports
 import contestlib
-import contestlib/cbitset
+import contestlib/bitset
 
 proc check(A: seq[int], m:int, bit: int): bool =
   bit.keys().mapIt(A[it]).sum == m

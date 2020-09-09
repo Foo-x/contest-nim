@@ -1,5 +1,5 @@
-import strformat, macros, algorithm, tables, sets, lists,
-    intsets, critbits, sequtils, strutils, math, times,
+import strformat, macros, std/algorithm, tables, sets, lists,
+    intsets, critbits, sequtils, strutils, std/math, times,
     sugar, options, deques, bitops, heapqueue
 
 const

@@ -1,6 +1,6 @@
 include contestlib/imports
 import contestlib
-import contestlib/cmath
+import contestlib/math as cm
 
 var
   (N, D) = read(int, int)

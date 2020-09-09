@@ -1,6 +1,6 @@
 include contestlib/imports
 import contestlib
-import contestlib/calgorithm
+import contestlib/algorithm as ca
 
 var
   N = read(int)
